@@ -1,6 +1,6 @@
 import { createApp } from 'vue'
 import Root from './Root.vue'
-import './index.css'
+
 import router from './router'
 
 import BalmUI from 'balm-ui'; // Official Google Material Components
@@ -15,9 +15,12 @@ import "overlayscrollbars";
 
 import "plyr/dist/plyr.css";
 
+import "@fontsource/alice";
 import "@fontsource/roboto/300.css";
 import "@fontsource/roboto/400.css";
 import "@fontsource/roboto/500.css";
+
+import './index.css'
 
 const app = createApp(Root);
 

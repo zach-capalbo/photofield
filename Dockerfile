@@ -36,7 +36,7 @@ COPY fonts ./fonts
 # RUN go install -tags libjpeg .
 COPY --from=node-builder /ui/dist/ ./ui/dist
 RUN go install -tags embedstatic .
-
+RUN GOOS=windows go install -tags embedstatic .
 
 
 ###

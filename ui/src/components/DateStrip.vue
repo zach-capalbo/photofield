@@ -30,6 +30,7 @@ export default {
   background: white;
   padding: 10px;
   text-align: center;
+  box-shadow: var(--theme-box-shadow);
 }
 
 .month {

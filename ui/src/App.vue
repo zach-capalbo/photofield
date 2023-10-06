@@ -384,10 +384,16 @@ export default {
 }
 
 .top-bar {
-  background-color: white;
-  --mdc-theme-on-primary: rgba(0,0,0,.87);
+  /* background-color: white; */
+  --mdc-theme-on-primary: white;
   vertical-align: baseline;
   transition: transform 0.2s;
+  font-family: 'Alice', serif;
+  /* background: linear-gradient(180deg, white, white, #aaa); */
+  border-bottom: 1px solid #aaa;
+  box-shadow: 0px 2px 2px 2px rgba(0, 0, 0, 0.2);
+  background-color: #333;
+  /* color: white; */
 }
 
 .top-bar.immersive {
@@ -421,6 +427,7 @@ button {
 
 .title {
   cursor: pointer;
+  font-family: 'Alice', serif;
 }
 
 .files {
@@ -471,6 +478,11 @@ button {
 
 .viewer {
   height: calc(100vh - 64px);
+}
+
+.toolbarItemClass {
+  --mdc-theme-on-primary: black;
+  color: black;
 }
 
 </style>

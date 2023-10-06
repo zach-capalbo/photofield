@@ -77,6 +77,8 @@ const expand = ref(false);
   padding: 0 16px 16px 16px;
   display: flex;
   flex-direction: column;
+  box-shadow: var(--theme-box-shadow);
+  font-family: 'Alice', serif;
 }
 
 .no-decoration {

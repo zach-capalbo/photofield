@@ -89,6 +89,7 @@ const emit = defineEmits([
   background: var(--mdc-theme-background);
   border-radius: 10px;
   justify-content: center;
+  box-shadow: var(--theme-box-shadow);
 }
 
 .settings > * {

@@ -1,5 +1,6 @@
 html, body {
   margin: 0;
+  font-family: "Alice", serif;
 }
 
 html {
@@ -31,3 +32,8 @@ html {
   color: #2c3e50;
   margin-top: 60px;
 } */
+
+:root {
+  --theme-box-shadow: 0px 5px 5px 5px rgba(0, 0, 0, 0.3);
+  --mdc-theme-background: #eee;
+}
